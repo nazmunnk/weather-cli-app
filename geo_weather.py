@@ -40,7 +40,7 @@ weather_descriptions = {
 code = weather["weathercode"]
 description = weather_descriptions.get(code, "অজানা আবহাওয়া")
 
-    # ধাপ ৩: সুন্দর করে প্রিন্ট করা
+    
 print("─────────────────────────────")
 print(f"  City        : {city_name}")
 print(f"  Temperature : {weather['temperature']} °C")
