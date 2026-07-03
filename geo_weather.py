@@ -38,7 +38,7 @@ weather_descriptions = {
     80: "Rain showers 🌦️",
     }
 code = weather["weathercode"]
-description = weather_descriptions.get(code, "অজানা আবহাওয়া")
+description = weather_descriptions.get(code, "Not identified")
 
     
 print("─────────────────────────────")
